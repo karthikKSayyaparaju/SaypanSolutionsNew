@@ -7,7 +7,7 @@ const HomePage: React.FC = () => {
     return (
         <main className='mx-auto mt-6 flex max-w-7xl flex-col justify-center gap-6 px-3 font-[family-name:var(--font-geist-sans)] sm:mt-3 sm:gap-12 sm:px-0'>
             <div className="w-full bg-[#356DB5] px-4 py-3 text-center text-sm font-medium text-white">
-                <strong>⚠️ UNDER DEVELOPMENT:</strong> This project is still under development, Learn Python, NumPy, Pandas from scratch. Loading soon.... {' '}
+                <strong>⚠️ UNDER DEVELOPMENT:</strong> This project is still under development, Learn Python, NumPy, Pandas from scratch. {' '}
                 <a
                     href='https://github.com/siddharthamaity/nextjs-16-starter-shadcn'
                     target='_blank'
