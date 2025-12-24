@@ -21,8 +21,8 @@ const HomePage: React.FC = () => {
                 <div className='flex items-center gap-4'>
                     <Image
                         className='h-6 sm:h-8 dark:invert'
-                        src='/next.svg'
-                        alt='SayPanSolutions logo'
+                        src='/saypansolutions.svg'
+                        alt='Next.js logo'
                         width={180}
                         height={38}
                         priority
