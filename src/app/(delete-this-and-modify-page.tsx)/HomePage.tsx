@@ -13,9 +13,9 @@ const HomePage: React.FC = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                     className='font-semibold underline hover:text-yellow-900 dark:hover:text-yellow-100'>
-                     Site expected to be ready by May 09, 2026.
+                     \n Site expected to be ready by May 09, 2026.
                 </a>{' '}
-                instead.
+                
             </div>
             <div className='justify-centersm:items-start row-start-2 flex flex-col items-center gap-8'>
                 <div className='flex items-center gap-4'>
