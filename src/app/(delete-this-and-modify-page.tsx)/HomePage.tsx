@@ -7,13 +7,13 @@ const HomePage: React.FC = () => {
     return (
         <main className='mx-auto mt-6 flex max-w-7xl flex-col justify-center gap-6 px-3 font-[family-name:var(--font-geist-sans)] sm:mt-3 sm:gap-12 sm:px-0'>
             <div className='mb-4 rounded-lg border border-yellow-400 bg-yellow-50 p-4 text-yellow-800 dark:border-yellow-600 dark:bg-yellow-900/30 dark:text-yellow-200'>
-                <strong>⚠️ UNDER DEVELOPMENT:</strong> This project is still under development, Learn Python, NumPy, Pandas from scratch{' '}
+                <strong>⚠️ UNDER DEVELOPMENT:</strong> This project is still under development, Learn Python, NumPy, Pandas from scratch. Loading soon.... {' '}
                 <a
                     href='https://github.com/siddharthamaity/nextjs-16-starter-shadcn'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='font-semibold underline hover:text-yellow-900 dark:hover:text-yellow-100'>
-                    Next.js 16 Starter (shadcn)
+                     Site expected to be ready by May 09, 2026.
                 </a>{' '}
                 instead.
             </div>
