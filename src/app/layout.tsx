@@ -3,6 +3,10 @@ import type { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 
+import Header from "@/components/Header";
+import Providers from "./providers";
+
+
 import { ThemeProvider } from 'next-themes';
 
 import NavigationBar from '@/app/(delete-this-and-modify-page.tsx)/NavigationBar';
@@ -32,10 +36,13 @@ const Layout = ({ children }: Readonly<{ children: ReactNode }>) => {
         <html suppressHydrationWarning lang='en'>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground overscroll-none antialiased`}>
-                <ThemeProvider attribute='class'>
-                    <NavigationBar />
-                    {children}
-                    <Toaster />
+                <ThemeProvider attribute="class">
+                    <Providers>
+                        <Header />
+                        <NavigationBar />
+                        {children}
+                        <Toaster />
+                    </Providers>
                 </ThemeProvider>
             </body>
         </html>
