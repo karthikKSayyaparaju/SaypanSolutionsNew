@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
                     <Image
                         className='h-6 sm:h-8 dark:invert'
                         src='/next.svg'
-                        alt='Next.js logo'
+                        alt='SayPanSolutions logo'
                         width={180}
                         height={38}
                         priority
