@@ -6,7 +6,7 @@ import SetupDetails from '@/app/(delete-this-and-modify-page.tsx)/SetupDetails';
 const HomePage: React.FC = () => {
     return (
         <main className='mx-auto mt-6 flex max-w-7xl flex-col justify-center gap-6 px-3 font-[family-name:var(--font-geist-sans)] sm:mt-3 sm:gap-12 sm:px-0'>
-            <div className='mb-4 rounded-lg border border-yellow-400 bg-yellow-50 p-4 text-yellow-800 dark:border-yellow-600 dark:bg-yellow-900/30 dark:text-yellow-200'>
+            <div className="mb-4 rounded-lg border border-blue-600 bg-blue-50 p-4 text-blue-800 dark:border-blue-500 dark:bg-blue-900/30 dark:text-blue-200">
                 <strong>⚠️ UNDER DEVELOPMENT:</strong> This project is still under development, Learn Python, NumPy, Pandas from scratch. Loading soon.... {' '}
                 <a
                     href='https://github.com/siddharthamaity/nextjs-16-starter-shadcn'
